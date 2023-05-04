@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary:#44b5ff;
+    --color-primary-variant:rgba(77, 181, 255, 0.4);
+    --color-white:#fff;
+    --color-light:rgba(255, 255, 255, 0.6);
+    --color-secondary:rgb(205, 205, 20);
+    --transition: all 400ms ease;
+    --container-width-lg:75%;
+    --container-width-md:86%;
+    --container-width-ms:90%
+}
+
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: var(--color-bg);
+    color:var(--color-white);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+.container{
+    width: 80%;
+    max-width: 1920px;
+    margin-inline: auto;
+}
+h1,h2,h3,h4,h5{
+    line-height: 1.2;
+    color: var(--color-white);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+a{
+    color: var(--color-light);
+}
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+
+.btn {
+    color: var(--color-light);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background: var(--color-primary);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.btn:hover{
+    background: var(--color-secondary);
+    transition: var(--transition);
+    color:black;
+}
+.btn.lg{
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    
+}
+.btn.sm{
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+}
+.btn.sm:hover{
+    background: var(--color-light);
+}
+
+
+
+section{
+    margin-top: 3rem;
+}
+.section__head{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+.section__head span{
+    background: var(--color-primary-variant);
+    padding: 0.8rem;
+    border-radius: 1rem;
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+}
+
+.card{
+    background: var(--color-primary-variant);
+    border: 2px solid transparent;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 0 3rem 0 3rem;
+    transition: var(--transition);
+}
+
+.card:hover{
+    background: transparent;
+    border-radius: 0 3rem 0 3rem;
+    cursor: default;
+}
+.card span{
+    width:  3rem;
+    height: 3rem;
+    background: var(--color-primary);
+    color: var(--color-light);
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
+    border-radius: 1rem;
+    transform: var(--transition);
+
+}
+.card:hover span{
+    background-color: var(--color-secondary);
+    color: black;
+}
+.card small{
+    margin-top: 1rem;
+    display: block;
+    font-weight: 300;
+}
+.header{
+    margin-top:5rem;
+    height: 20rem;
+    overflow: hidden;
+    border-bottom: 2px solid var(--color-light);
+}
+.header__container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    place-items: center;
+    background: black;
+}
+.header__container-bg{
+    position: absolute;
+    width: 100%;
+}
+.header__container-bg img{
+    opacity: 0.5;
+}
+.header__content{
+    position: relative;
+    width: 44%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--color-light);
+}
+.header__container h2{
+    margin-bottom: 1rem;
+}
+.header__container p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+
+/* MEDIA QUERIES (MEDIUM SCREEN) */
+@media screen and (max-width:1024px) {
+    .container{
+        width:var( --container-width-md);
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    .header__content{
+        width: 76%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+ 
+    h1{
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+    section{
+        margin-top: 7rem;
+    }
+    .header{
+        height: fit-content;
+    }
+    .header__content{
+        width: var(--container-width-md);
+        padding: 2rem 0;
+    }
+    .header__content p{
+        font-size: 0.85rem;
+    }
+}
