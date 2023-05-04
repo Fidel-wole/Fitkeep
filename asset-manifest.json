@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Fitkeep/static/css/main.76136e46.css",
+    "main.js": "/Fitkeep/static/js/main.30cfc2d2.js",
+    "static/media/cathy-pham-3jAN9InapQI-unsplash.jpg": "/Fitkeep/static/media/cathy-pham-3jAN9InapQI-unsplash.d0858ce9be58a81f301d.jpg",
+    "static/media/gallery (2).jpg": "/Fitkeep/static/media/gallery (2).6e6aec0a11ebacd2a5a4.jpg",
+    "static/media/gym3.jpg": "/Fitkeep/static/media/gym3.6e6aec0a11ebacd2a5a4.jpg",
+    "static/media/logo.jpg": "/Fitkeep/static/media/logo.3fc544914d422b59845f.jpg",
+    "static/media/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg": "/Fitkeep/static/media/humphrey-muleba-LOA2mTj1vhc-unsplash.ef9e8d3c801ddbb9fedb.jpg",
+    "static/media/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg": "/Fitkeep/static/media/edgar-chaparro-sHfo3WOgGTU-unsplash.5b655c26e9bac800803f.jpg",
+    "static/media/august-phlieger-CREqtqgBFcU-unsplash-removebg.png": "/Fitkeep/static/media/august-phlieger-CREqtqgBFcU-unsplash-removebg.812aa32cfcc4e218bccd.png",
+    "static/media/gym1.jpg": "/Fitkeep/static/media/gym1.f00518cbc2e886f20e67.jpg",
+    "static/media/founder.jpg": "/Fitkeep/static/media/founder.cca18441a86a6255442c.jpg",
+    "static/media/gym2.jpg": "/Fitkeep/static/media/gym2.c796c308ee815f3524d1.jpg",
+    "static/media/landing.png": "/Fitkeep/static/media/landing.37474b1e4a52bf6ad935.png",
+    "index.html": "/Fitkeep/index.html",
+    "main.76136e46.css.map": "/Fitkeep/static/css/main.76136e46.css.map",
+    "main.30cfc2d2.js.map": "/Fitkeep/static/js/main.30cfc2d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76136e46.css",
+    "static/js/main.30cfc2d2.js"
+  ]
+}
